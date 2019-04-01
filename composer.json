@@ -1,0 +1,20 @@
+{
+    "name": "wilder/composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Nathalie Cortès",
+            "email": "natyv225@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "6.0",
+        "ehime/hello-world": "^1.0"
+    },
+
+    "autoload": {
+    "psr-4": {
+      "App\\":"src/"
+    }
+  }
+}
